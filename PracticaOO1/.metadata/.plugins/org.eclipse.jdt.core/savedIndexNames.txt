@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+C:\Users\juans\OneDrive\Documentos\Lic Sistemas\2 - Segundo Año\2 - Segundo Semestre\Objetos 1\PracticaOO1\.metadata\.plugins\org.eclipse.jdt.core
+3709319578.index
+1865797976.index
+1879949506.index
+162006405.index
+467083986.index
+3856658982.index
+979752736.index
+3421212560.index
+2659865749.index
