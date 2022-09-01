@@ -50,8 +50,7 @@ public class Balanza {
 	
 	/*Retorna el ticket con los atributos*/
 	public Ticket emitirTicket() {
-		Ticket T = new Ticket(this);
-		T.impuesto();
+		Ticket T = new Ticket(this.getCantidadDeProductos(), this.getPrecioTotal(), this.getPesoTotal());
 		return T;
 	}
 }
