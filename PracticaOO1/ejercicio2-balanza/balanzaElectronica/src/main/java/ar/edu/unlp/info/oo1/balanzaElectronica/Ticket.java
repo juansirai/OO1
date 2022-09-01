@@ -9,11 +9,11 @@ public class Ticket {
 	private double pesoTotal;
 	
 	
-	public Ticket(Balanza balanza) {
+	public Ticket(int cantidadProductos, double precioTotal, double pesoTotal) {
 		this.fecha = LocalDate.now();
-		this.cantidadDeProductos = balanza.getCantidadDeProductos();
-		this.precioTotal = balanza.getPrecioTotal();
-		this.pesoTotal = balanza.getPesoTotal();
+		this.cantidadDeProductos = cantidadProductos;
+		this.precioTotal = precioTotal;
+		this.pesoTotal = pesoTotal;
 	}
 	
 	
