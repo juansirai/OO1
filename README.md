@@ -8,5 +8,8 @@
 * [Ejercicio 3: Presupuestos ](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio03-presupuesto/src/main/java/ar/edu/unlp/info/oo1)
 * [Ejercicio 3 - Bis: Balanza mejorada](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio03-balanzaMejorada/src/main/java/ar/edu/unlp/info/oo1/ejercicio03_balanzaMejorada)
 * [Ejercicio 4: Figuras y cuerpos](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio04-figurasYCuerpos/src/main/java/ar/edu/unlp/info/oo1/ejercicio04_figurasYCuerpos)
+* [Ejercicio 5: Genealogia Salvaje](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio05-genealogiaSalvaje)
+* [Ejercicio 6: Alumbrado Publico](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio06-redAlumbrado)
+* [Ejercicio 7: Lookup Method](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio07-empleados)
 
 --------------------------------------------------------------------------
