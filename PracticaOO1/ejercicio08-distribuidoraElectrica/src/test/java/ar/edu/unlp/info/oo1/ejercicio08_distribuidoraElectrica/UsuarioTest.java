@@ -27,4 +27,12 @@ public class UsuarioTest {
 		
 		assertEquals(353, this.usuario.ultimoConsumoActiva());
 	}
+	
+	@Test
+	void testFacturar() {
+		Consumo cCuatro = new Consumo(353, 352);
+		this.usuario.agregarMedicion(cCuatro);
+		Factura factura = this.usuario.facturarEnBaseA(100);
+		assertEquals(35300, factura.montoTotal());
+	}
 }

@@ -30,4 +30,5 @@ public class ConsumoTest {
 	  void costoEnBaseA() {
 		  assertEquals(100 ,this.consumo.costoEnBaseA(10));
 	  }
+
 }

@@ -42,6 +42,10 @@ public class Distribuidora {
 		
 		return resultado;
 	}
+	
+	public Usuario ultimoUsuario() {
+		return this.usuarios.get(this.usuarios.size()-1);
+	}
 
 
 }
