@@ -11,5 +11,8 @@
 * [Ejercicio 5: Genealogia Salvaje](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio05-genealogiaSalvaje)
 * [Ejercicio 6: Alumbrado Publico](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio06-redAlumbrado)
 * [Ejercicio 7: Lookup Method](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio07-empleados)
+* [Ejercicio 8: Distribuidora Electrica](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio08-distribuidoraElectrica/src)
+* [Ejercicio 9: Cuenta con Ganchos](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio09-cuentaConGanchos/src)
+* [Ejercicio 10: Job Scheduler](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio10-jobScheduler/src)
 
 --------------------------------------------------------------------------
