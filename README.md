@@ -14,5 +14,7 @@
 * [Ejercicio 8: Distribuidora Electrica](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio08-distribuidoraElectrica/src)
 * [Ejercicio 9: Cuenta con Ganchos](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio09-cuentaConGanchos/src)
 * [Ejercicio 10: Job Scheduler](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio10-jobScheduler/src)
+* [Ejercicio 11: Inversor](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio11-inversor/src)
+* [Ejercicio 12: Reporte de Construccion](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio12-reporteConstruccion/src)
 
 --------------------------------------------------------------------------
