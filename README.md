@@ -18,5 +18,6 @@
 * [Ejercicio 12: Reporte de Construccion](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio12-reporteConstruccion/src)
 * [Ejercicio 13: Cliente de Correo](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio13-clienteCorreo/src)
 * [Ejercicio 14: Intervalo de Tiempo](https://github.com/juansirai/OO1/tree/main/PracticaOO1/ejercicio14-intervalosTiempo/src)
+* [Ejercicio 15: Alquiler de Propiedades](https://github.com/juansirai/OO1/tree/main/PracticaOO1/Ejercicio15-AlquilerDePropiedades)
 
 --------------------------------------------------------------------------
