@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>oo1_archetype</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>IntervaloTiempo</name>
+			<value>file:/C:/Users/juans/OneDrive/Documentos/Lic%20Sistemas/2%20-%20Segundo%20A%C3%B1o/2%20-%20Segundo%20Semestre/Objetos%201/PracticaOO1/ejercicio14-intervalosTiempo</value>
+		</variable>
+	</variableList>
+</projectDescription>
