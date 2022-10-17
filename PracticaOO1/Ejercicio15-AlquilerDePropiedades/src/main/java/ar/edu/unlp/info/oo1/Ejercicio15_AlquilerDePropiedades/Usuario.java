@@ -32,6 +32,10 @@ public class Usuario {
 		return this.reservas;
 	}
 	
+	public void agregarPropiedad(Propiedad propiedad) {
+		this.propiedades.add(propiedad);
+	}
+	
 	public double calcularIngresos(LocalDate ini, LocalDate fin) {
 		return this.propiedades.stream()
 				.mapToDouble(propiedad -> propiedad.calcularIngresos(ini, fin)).sum();

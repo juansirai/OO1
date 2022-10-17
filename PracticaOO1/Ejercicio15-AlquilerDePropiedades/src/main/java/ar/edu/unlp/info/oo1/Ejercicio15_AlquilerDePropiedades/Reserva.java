@@ -9,7 +9,10 @@ public class Reserva {
 	private Propiedad propiedad;
 	
 	public Reserva(LocalDate ini, LocalDate fin, Propiedad propiedad) {
+		// Como hago para que directamente retorne null al objeto reserva??
+		// actualmente lo checkea Propiedad y Usuario, pero no correspondería a reserva?
 		this.periodo = new DateLapse(ini, fin);
+		this.propiedad = propiedad;
 	}
 	
 	public boolean overlapea(LocalDate ini, LocalDate fin) {

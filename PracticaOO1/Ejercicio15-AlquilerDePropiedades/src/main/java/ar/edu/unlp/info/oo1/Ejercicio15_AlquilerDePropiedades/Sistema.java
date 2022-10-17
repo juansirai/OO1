@@ -62,4 +62,8 @@ public class Sistema {
 	public double calcularIngresosPropietario(Usuario propietario,LocalDate ini, LocalDate fin) {
 		return propietario.calcularIngresos(ini, fin);
 	}
+	
+	public void asignarPropiedadAUsuario(Usuario propietario, Propiedad propiedad) {
+		propietario.agregarPropiedad(propiedad);
+	}
 }
