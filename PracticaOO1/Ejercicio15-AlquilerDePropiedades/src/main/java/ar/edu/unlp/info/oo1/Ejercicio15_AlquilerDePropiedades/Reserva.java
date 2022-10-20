@@ -32,6 +32,7 @@ public class Reserva {
 	}
 	
 	public Boolean entreFechas(LocalDate ini, LocalDate fin) {
-		return this.periodo.getFrom().isAfter(ini) && this.periodo.getTo().isBefore(fin);
+		return //this.periodo.getFrom().isAfter(ini) && this.periodo.getTo().isBefore(fin);
+			   this.periodo.getFrom().compareTo(ini)>=0 && this.periodo.getTo().compareTo(fin)<=0;
 	}
 }

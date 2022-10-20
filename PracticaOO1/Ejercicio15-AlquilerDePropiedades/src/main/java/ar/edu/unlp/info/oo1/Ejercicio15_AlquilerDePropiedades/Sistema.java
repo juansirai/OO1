@@ -21,6 +21,10 @@ public class Sistema {
 		return user;
 	}
 	
+	public List<Usuario> getUsuarios(){
+		return this.usuarios;
+	}
+	
 
 	public Propiedad registrarPropiedad(String nombre, String descripcion,
 										double precioNoche, String direccion,
@@ -28,6 +32,7 @@ public class Sistema {
 		Propiedad propiedad = new Propiedad(nombre, descripcion, precioNoche,
 											direccion, propietario);
 		this.propiedades.add(propiedad);
+		this.asignarPropiedadAUsuario(propietario, propiedad);
 		return propiedad;
 	}
 	
@@ -35,6 +40,10 @@ public class Sistema {
 		return this.propiedades.stream()
 				.filter(propiedad-> propiedad.estaDisponible(ini, fin))
 				.collect(Collectors.toList());
+	}
+	
+	public List<Propiedad> getPropiedades(){
+		return this.propiedades;
 	}
 	
 	public Reserva efectuarReserva(LocalDate ini, LocalDate fin, Propiedad propiedad, Usuario inquilino) {
@@ -63,7 +72,7 @@ public class Sistema {
 		return propietario.calcularIngresos(ini, fin);
 	}
 	
-	public void asignarPropiedadAUsuario(Usuario propietario, Propiedad propiedad) {
+	private void asignarPropiedadAUsuario(Usuario propietario, Propiedad propiedad) {
 		propietario.agregarPropiedad(propiedad);
 	}
 }

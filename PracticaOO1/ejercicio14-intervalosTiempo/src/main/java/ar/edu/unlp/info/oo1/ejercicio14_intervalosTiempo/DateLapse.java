@@ -34,5 +34,9 @@ public class DateLapse implements InterfaceDate{
 				date.isEqual(this.getFrom()) ||
 				date.isEqual(this.getTo());
 	}
+	
+	public boolean overLaps(LocalDate ini, LocalDate fin) {
+		return this.includesDate(ini) || this.includesDate(fin);
+	}
 
 }
