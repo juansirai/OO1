@@ -38,5 +38,9 @@ public class DateLapse implements InterfaceDate{
 	public boolean overLaps(LocalDate ini, LocalDate fin) {
 		return this.includesDate(ini) || this.includesDate(fin);
 	}
+	
+	public int compareWithFrom(LocalDate fecha) {
+		return this.from.compareTo(fecha);
+	}
 
 }
